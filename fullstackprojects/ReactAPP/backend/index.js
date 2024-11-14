@@ -26,7 +26,7 @@ app.use("/api/trainer", itemRoute);
 
 
 //allow multiple origins
-const allowedOrigins = ['http://localhost:3000', 'http://example.com'];
+const allowedOrigins = ['http://localhost:3000/api/trainer/', 'http://localhost:5173/'];
 
 const corsOptions = {
 	origin: (origin, callback) => {
